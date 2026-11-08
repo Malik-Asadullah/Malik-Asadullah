@@ -60,18 +60,22 @@ M.Sc. IT Engineering student at FH Wedel · open to Werkstudent roles · Wedel (
 ![VS Code](https://img.shields.io/badge/VS_Code-007ACC?style=flat-square&logo=visualstudiocode&logoColor=white)
 ![Stripe](https://img.shields.io/badge/Stripe-635BFF?style=flat-square&logo=stripe&logoColor=white)
 
+## 📂 Featured projects
+
+| Project | What it is | Stack |
+|---|---|---|
+| [QuickGo](https://github.com/Malik-Asadullah/QuickGo) · [Live demo](https://malik-asadullah.github.io/QuickGo/) | Delivery management platform for logistics companies: a React web dashboard to manage riders and orders, plus subscription pages with Stripe checkout (demo mode). Final-year project in a team of four, where I built the whole frontend, including the rider and customer mobile apps. | React, React Router, Bootstrap, Stripe Elements, React Native |
+
 ## 💼 Experience
 
 - **UI/UX & Graphic Designer**, Institute of Business Administration (IBA), Karachi (Jul 2024 – Oct 2025)
 - **Graphic Designer**, The Institute of Chartered Accountants of Pakistan (ICAP), Karachi (Mar 2023 – Nov 2023)
 
-<!-- TODO: uncomment after he has public repos and YOUR-USERNAME is replaced, otherwise the cards show empty.
 ## 📊 GitHub stats
 
 <div align="center">
 
-![Stats](https://github-readme-stats.vercel.app/api?username=YOUR-USERNAME&show_icons=true&theme=tokyonight&hide_border=true)
-![Top languages](https://github-readme-stats.vercel.app/api/top-langs/?username=YOUR-USERNAME&layout=compact&theme=tokyonight&hide_border=true)
+![Stats](https://github-readme-stats.vercel.app/api?username=Malik-Asadullah&show_icons=true&theme=tokyonight&hide_border=true)
+![Top languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Malik-Asadullah&layout=compact&theme=tokyonight&hide_border=true)
 
 </div>
--->
