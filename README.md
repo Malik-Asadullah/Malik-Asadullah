@@ -70,12 +70,3 @@ M.Sc. IT Engineering student at FH Wedel · open to Werkstudent roles · Wedel (
 
 - **UI/UX & Graphic Designer**, Institute of Business Administration (IBA), Karachi (Jul 2024 – Oct 2025)
 - **Graphic Designer**, The Institute of Chartered Accountants of Pakistan (ICAP), Karachi (Mar 2023 – Nov 2023)
-
-## 📊 GitHub stats
-
-<div align="center">
-
-![Stats](https://github-readme-stats.vercel.app/api?username=Malik-Asadullah&show_icons=true&theme=tokyonight&hide_border=true)
-![Top languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Malik-Asadullah&layout=compact&theme=tokyonight&hide_border=true)
-
-</div>
