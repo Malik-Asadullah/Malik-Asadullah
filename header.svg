@@ -1,0 +1,121 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 460" width="1200" height="460" role="img" aria-label="Hi, I'm Malik Asadullah Awan - Frontend Developer and UI/UX Designer">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0b0b2b"/>
+      <stop offset="0.6" stop-color="#1a1650"/>
+      <stop offset="1" stop-color="#2a2a7a"/>
+    </linearGradient>
+    <linearGradient id="name" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="1" stop-color="#9fe8ff"/>
+    </linearGradient>
+    <linearGradient id="wave" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#3a4fb0" stop-opacity="0.55"/>
+      <stop offset="1" stop-color="#1f3a6e" stop-opacity="0.9"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.3" cy="0.55" r="0.5">
+      <stop offset="0" stop-color="#6b5cff" stop-opacity="0.45"/>
+      <stop offset="1" stop-color="#6b5cff" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <style>
+    .mono { font-family: 'JetBrains Mono', 'Fira Code', Consolas, monospace; }
+    .sans { font-family: 'Inter', 'Segoe UI', Helvetica, Arial, sans-serif; }
+    .tw { animation: twinkle 3s ease-in-out infinite; }
+    .tw2 { animation: twinkle 4.5s ease-in-out infinite 1s; }
+    .tw3 { animation: twinkle 3.6s ease-in-out infinite 2s; }
+    @keyframes twinkle { 0%,100% { opacity: .15 } 50% { opacity: 1 } }
+    .float { animation: float 5s ease-in-out infinite; }
+    @keyframes float { 0%,100% { transform: translateY(0) } 50% { transform: translateY(-8px) } }
+    .drift { animation: drift 9s ease-in-out infinite alternate; }
+    @keyframes drift { from { transform: translateX(0) } to { transform: translateX(-40px) } }
+    .l1 { animation: cycle 9s infinite 0s; opacity: 0 }
+    .l2 { animation: cycle 9s infinite 3s; opacity: 0 }
+    .l3 { animation: cycle 9s infinite 6s; opacity: 0 }
+    @keyframes cycle { 0% { opacity: 0 } 4% { opacity: 1 } 30% { opacity: 1 } 34%,100% { opacity: 0 } }
+    .cursor { animation: blink 1s steps(1) infinite; }
+    @keyframes blink { 50% { opacity: 0 } }
+    .underline { stroke-dasharray: 360; stroke-dashoffset: 360; animation: draw 2s ease-out forwards .4s; }
+    @keyframes draw { to { stroke-dashoffset: 0 } }
+    .fade { animation: fadeup 1.2s ease-out both; }
+    @keyframes fadeup { from { opacity: 0; transform: translateY(14px) } to { opacity: 1; transform: translateY(0) } }
+  </style>
+
+  <rect width="1200" height="460" fill="url(#bg)"/>
+  <rect width="1200" height="460" fill="url(#glow)"/>
+
+  <!-- stars -->
+  <g fill="#ffffff">
+    <circle class="tw" cx="90" cy="70" r="2"/>
+    <circle class="tw2" cx="260" cy="40" r="1.6"/>
+    <circle class="tw3" cx="520" cy="95" r="2.2"/>
+    <circle class="tw" cx="640" cy="45" r="1.5"/>
+    <circle class="tw2" cx="880" cy="60" r="2.4" fill="#9fe8ff"/>
+    <circle class="tw3" cx="1060" cy="40" r="2"/>
+    <circle class="tw" cx="1140" cy="120" r="2.6" fill="#b9a8ff"/>
+    <circle class="tw2" cx="150" cy="180" r="1.4"/>
+    <circle class="tw3" cx="430" cy="200" r="1.6"/>
+  </g>
+
+  <!-- waves -->
+  <g class="drift">
+    <path d="M-60 395 C 150 355, 330 440, 560 400 S 950 360, 1260 405 L1260 460 L-60 460 Z" fill="url(#wave)"/>
+  </g>
+  <path d="M0 430 C 220 400, 420 455, 700 425 S 1050 410, 1200 435 L1200 460 L0 460 Z" fill="#1b2f66" opacity="0.8"/>
+
+  <!-- desk scene -->
+  <g class="float">
+    <!-- monitor -->
+    <rect x="150" y="140" width="330" height="215" rx="14" fill="#10123a" stroke="#6ee7ff" stroke-width="3"/>
+    <rect x="166" y="156" width="298" height="183" rx="6" fill="#0a0c2a"/>
+    <circle cx="182" cy="172" r="4" fill="#ff5f56"/>
+    <circle cx="198" cy="172" r="4" fill="#ffbd2e"/>
+    <circle cx="214" cy="172" r="4" fill="#27c93f"/>
+    <g class="mono" font-size="15">
+      <text x="184" y="208" fill="#b9a8ff">&lt;<tspan fill="#6ee7ff">Hero</tspan> /&gt;</text>
+      <text x="200" y="236" fill="#9fe8ff">const <tspan fill="#ffffff">ui</tspan> = <tspan fill="#ffd479">"clean"</tspan>;</text>
+      <text x="200" y="264" fill="#9fe8ff">design<tspan fill="#ffffff">.ship()</tspan>;</text>
+      <text x="184" y="292" fill="#b9a8ff">&lt;/<tspan fill="#6ee7ff">Hero</tspan>&gt;</text>
+      <rect class="cursor" x="184" y="302" width="9" height="16" fill="#6ee7ff"/>
+    </g>
+    <!-- stand -->
+    <rect x="296" y="355" width="38" height="26" fill="#2a2e6e"/>
+    <rect x="240" y="378" width="150" height="9" rx="4" fill="#3a4090"/>
+  </g>
+  <!-- desk -->
+  <rect x="110" y="386" width="420" height="10" rx="5" fill="#2e3578"/>
+  <!-- plant -->
+  <rect x="120" y="352" width="34" height="34" rx="4" fill="#c4572d"/>
+  <path d="M137 352 C 118 322, 126 300, 140 296 C 150 318, 148 336, 137 352 Z" fill="#3fbf6a"/>
+  <path d="M137 352 C 156 330, 168 318, 176 322 C 170 340, 154 350, 137 352 Z" fill="#2fa458"/>
+  <!-- floating symbols -->
+  <text class="mono tw" x="500" y="150" font-size="34" fill="#6ee7ff" opacity="0.8">&lt;/&gt;</text>
+  <text class="mono tw2" x="540" y="320" font-size="28" fill="#b9a8ff" opacity="0.8">{ }</text>
+
+  <!-- text block -->
+  <g class="fade" style="animation-delay:.1s">
+    <text class="sans" x="660" y="130" font-size="34" font-weight="700" fill="#9fe8ff">Hi, I'm</text>
+  </g>
+  <g class="fade" style="animation-delay:.3s">
+    <text class="sans" x="660" y="200" font-size="58" font-weight="800" fill="url(#name)">Malik Asadullah</text>
+    <text class="sans" x="660" y="262" font-size="58" font-weight="800" fill="url(#name)">Awan</text>
+  </g>
+  <g class="fade" style="animation-delay:.6s">
+    <text class="mono" x="660" y="302" font-size="25" fill="#b9a8ff" letter-spacing="1">Frontend Developer · UI/UX</text>
+    <path class="underline" d="M660 312 H1020" stroke="#6ee7ff" stroke-width="3" stroke-linecap="round" fill="none"/>
+  </g>
+
+  <!-- terminal -->
+  <g class="fade" style="animation-delay:.9s">
+    <rect x="660" y="334" width="480" height="84" rx="16" fill="#0a0c2a" stroke="#6ee7ff" stroke-width="2.5"/>
+    <circle cx="684" cy="354" r="5" fill="#ff5f56"/>
+    <circle cx="702" cy="354" r="5" fill="#ffbd2e"/>
+    <circle cx="720" cy="354" r="5" fill="#27c93f"/>
+    <text class="mono" x="684" y="396" font-size="22" fill="#6ee7ff">&gt;</text>
+    <g class="mono" font-size="22" fill="#ffffff">
+      <text class="l1" x="712" y="396">React · Next.js · Tailwind</text>
+      <text class="l2" x="712" y="396">Figma · UI/UX · Design Systems</text>
+      <text class="l3" x="712" y="396">Testing · APIs · AI-assisted dev</text>
+    </g>
+  </g>
+</svg>
