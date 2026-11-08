@@ -60,23 +60,14 @@ M.Sc. IT Engineering student at FH Wedel · open to Werkstudent roles · Wedel (
 ![VS Code](https://img.shields.io/badge/VS_Code-007ACC?style=flat-square&logo=visualstudiocode&logoColor=white)
 ![Stripe](https://img.shields.io/badge/Stripe-635BFF?style=flat-square&logo=stripe&logoColor=white)
 
-## 📂 Featured projects
-
-| Project | What it is | Stack |
-|---|---|---|
-| [QuickGo (web)](https://github.com/YOUR-USERNAME/quickgo-web) | Delivery management platform for logistics companies: a React dashboard to manage riders and orders, plus subscription pages with Stripe checkout (demo mode). Final-year project in a team of four; I built the whole frontend. | React, React Router, Bootstrap, Stripe Elements |
-| [QuickGo (mobile)](https://github.com/YOUR-USERNAME/quickgo-mobile) | React Native apps for QuickGo: a rider app with task list and map navigation, and a customer app to enter delivery locations and see the route on a map | React Native |
-
-<!-- TODO: push the two QuickGo repos under his own account and fix the links. Add one or two small finished projects with a live demo. -->
-
 ## 💼 Experience
 
 - **UI/UX & Graphic Designer**, Institute of Business Administration (IBA), Karachi (Jul 2024 – Oct 2025)
 - **Graphic Designer**, The Institute of Chartered Accountants of Pakistan (ICAP), Karachi (Mar 2023 – Nov 2023)
 
+<!-- TODO: uncomment after he has public repos and YOUR-USERNAME is replaced, otherwise the cards show empty.
 ## 📊 GitHub stats
 
-<!-- TODO: uncomment after the projects are pushed and YOUR-USERNAME is replaced, otherwise the cards show empty.
 <div align="center">
 
 ![Stats](https://github-readme-stats.vercel.app/api?username=YOUR-USERNAME&show_icons=true&theme=tokyonight&hide_border=true)
